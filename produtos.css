@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-header {
+#header-produtos {
     background: #bbbb;
 }
 
@@ -20,7 +20,7 @@ nav {
     right: 0;
 }
 
-nav li {
+nav .li-produtos {
     display: inline;
     margin: 00015px;
 }
@@ -81,4 +81,16 @@ nav a:hover {
     font-size: 22px;
     font-weight: bold;
     margin: 10px 0 0;
+}
+
+footer {
+    text-align: center;
+    background: url("./img/bg.jpeg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
