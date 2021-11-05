@@ -10,6 +10,7 @@
 
 .titulo-principal {
     padding-left: 20px;
+    margin: 20px;
 }
 
 .titulo-centralizado {
@@ -18,6 +19,10 @@
 
 p {
     text-align: center;
+}
+
+#contato {
+    text-align: start;
 }
 
 #missao {
@@ -30,6 +35,7 @@ em strong {
 
 .itens {
     font-style: italic;
+    margin-bottom: 3%;
 }
 
 .beneficios {
@@ -42,6 +48,7 @@ em strong {
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
+    margin-top: 10%;
 }
 
 .imagembeneficio {
@@ -57,15 +64,20 @@ form {
     margin: 40px 0;
 }
 
-form label {
+form label,
+form p {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
 
-form input {
+.input-padrao {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
 }
