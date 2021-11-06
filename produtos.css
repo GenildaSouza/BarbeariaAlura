@@ -6,6 +6,7 @@
 
 #header-produtos {
     background: #FAFAFA;
+    border-top: yellow 1px solid;
 }
 
 .caixa {
@@ -34,7 +35,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #c78c19;
+    color: #F4FA58;
     text-decoration: underline;
 }
 
